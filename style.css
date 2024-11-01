@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Archivo', sans-serif;
+
+}
+
+nav {
+    background-color: rgb(93, 52, 6);
+
+}
+
+.navbar-item1 {
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+a:hover {
+    color: rgb(166, 163, 163);
+}
+
+
+
+
+.jumbotron {
+
+    color: #ffffff;
+    padding: 200px;
+    background-image: url(https://images.pexels.com/photos/3801349/pexels-photo-3801349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.btn {
+    background-color: brown;
+    color: #ffffff;
+    margin-right: 100px;
+
+
+}
+
+
+
+.container-cards {
+    display: block;
+    justify-content: space-around;
+    padding: 100px;
+    background-color: burlywood;
+    background: linear-gradient(to bottom right, rgb(142, 68, 68), orange, pink, burlywood);
+
+}
+
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    font-style: italic;
+
+}
+
+.img_card {
+    width: 250px;
+    height: 350px;
+}
+
+
+.col-aside {
+    color: #ffffff;
+    text-align: center;
+    padding: 100px;
+    margin: 20px;
+    background-image: url(assets/images/taller_calzado.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 4%;
+
+}
+
+.col-aside .btn {
+    align-items: center;
+}
+
+.col-form {
+    background-color: orange;
+    width: 50%;
+    margin: 20px;
+    border-radius: 4%;
+    color: #ffffff;
+    margin: 20px;
+    padding-block: 10px;
+
+}
+
+input {
+    border-radius: 4px;
+}
+
+textarea {
+    border-radius: 4px;
+}
+
+.links {
+    background-color: burlywood;
+    color: #ffffff;
+}
+
+
+
+.links ul {
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: burlywood;
+    padding: 20px;
+    margin-top: 20px;
+
+
+
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+
+}
+
+.copyright {
+    color: #ffffff;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
